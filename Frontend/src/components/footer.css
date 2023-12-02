@@ -1,0 +1,66 @@
+footer {
+            background-color: #000; /* Marrón oscuro */
+            color: #fff; /* Texto blanco */
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-logo {
+            max-width: 100px;
+        }
+
+        .footer-text {
+            max-width: 400px;
+            text-align: left;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          
+          .social-icons a {
+            margin: 10px;
+            color: #333;
+            text-decoration: none;
+            border-radius: 50%;
+            background-color: #fff; /* Fondo blanco para simular forma redonda */
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+          }
+          
+          .social-icons a:hover {
+            background-color: #e0e0e0; /* Cambia el color de fondo al pasar el ratón */
+          }
+
+        /* Cambiar el color de los enlaces en el pie de página */
+        footer a {
+            color: #ffd700; /* Dorado */
+            text-decoration: none;
+        }
+
+        /* Cambiar color de los enlaces al pasar el ratón */
+        footer a:hover {
+            color: #bea57d; /* Dorado más claro */
+        }
+
+        li a{
+            color: #fff; /* Dorado */
+            text-decoration: none;
+        }
+        h3{
+            color:#d5ac5b;
+            font-size: 2em;
+            font-family: "Cormorant Infant",serif;
+            margin:0px;
+        }
